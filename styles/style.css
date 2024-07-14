@@ -17,11 +17,22 @@ a {
     text-decoration: none;
     color: #424242;
 }
-button{
+
+button {
     cursor: pointer;
 }
 
+.light-drk {
+    color: rgb(114, 114, 114);
+}
 
+.drk {
+    color: rgb(19, 19, 19);
+}
+
+.pr {
+    color: rgb(255, 144, 14);
+}
 
 /* header part here */
 header {
@@ -74,16 +85,69 @@ header {
     margin: 20px 0px;
 }
 
-.banner button {
+.btn {
     border-radius: 8px;
     background: rgb(255, 144, 14);
     color: white;
     padding: 18px 25px;
     border: none;
     margin-bottom: 40px;
-    
+
 }
 
 .banner-img {
     width: 1150px;
+}
+
+/* Main Part css */
+main {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+main>section {
+    margin-top: 60px;
+}
+
+/* Features section css here*/
+.features {
+    display: flex;
+    gap: 65px;
+}
+
+.features-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+}
+.features-images img{
+    border: 2px dashed #ddd;
+}
+.features-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 24px;
+    height: 100%;
+
+}
+
+.features .col {
+    width: 50%;
+}
+
+.features-content h2 {
+    font-size: 37px;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.features-content p {
+    color: rgb(114, 114, 114);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    width: 70%;
 }
