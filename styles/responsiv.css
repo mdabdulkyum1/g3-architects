@@ -1,0 +1,49 @@
+/* Small devices   */
+@media all and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+
+    .nav {
+        gap: 10px;
+        flex-direction: column;
+    }
+    .nav h1{
+        font-size: 1.5em;
+    }
+
+    #banner {
+        margin-top: 20px;
+        align-items: start;
+    }
+
+    .banner h1 {
+        font-size: 21px;
+        text-align: left;
+    }
+
+    .banner p {
+        width: 90%;
+        text-align: left;
+        font-size: 13px;
+        margin: 10px 0px;
+    }
+
+    .banner button{
+         padding: 14px 21px;
+    }
+       
+    .banner-img {
+        width: 95%;
+    }
+
+/*==============================================
+=========== End header section Responsive  ====
+=================================================*/
+
+
+
+
+
+
+}
