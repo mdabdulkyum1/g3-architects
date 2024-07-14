@@ -1,5 +1,89 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* common css */
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #424242;
+}
+button{
+    cursor: pointer;
+}
+
+
+
+/* header part here */
+header {
+    background: rgba(255, 144, 14, 0.1);
+    padding: 45px 0px;
+}
+
+/* nav */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 230px;
+}
+
+.nav h1 {
+    color: rgb(19, 19, 19);
+    font-size: 2.3em;
+    font-weight: 700;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+/* banner */
+#banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 96px;
+}
+
+.banner h1 {
+    color: rgb(19, 19, 19);
+    font-size: 53px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.banner p {
+    color: rgb(114, 114, 114);
+    font-size: 16px;
+    font-weight: 400;
+    width: 50%;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.banner button {
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    color: white;
+    padding: 18px 25px;
+    border: none;
+    margin-bottom: 40px;
+    
+}
+
+.banner-img {
+    width: 1150px;
 }
