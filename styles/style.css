@@ -133,7 +133,7 @@ main>section {
 
 }
 
-.features .col {
+ .col {
     width: 50%;
 }
 
@@ -150,4 +150,9 @@ main>section {
     font-weight: 400;
     text-align: left;
     width: 70%;
+}
+/* Experience css here */
+.experience{
+    display: flex;
+    gap: 65px;
 }

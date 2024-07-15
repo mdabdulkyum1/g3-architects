@@ -42,10 +42,38 @@
 /*==============================================
 =========== End header section Responsive  ====
 =================================================*/
-
-
-
-
-
-
+/* main part */
+main{
+    width: 100%;
 }
+/* Start feature styles for small device */
+.features{
+    flex-direction: column;
+    padding: 24px;
+    align-items: center;
+}
+
+.features-images{
+    grid-template-columns: 1fr;
+}
+.features-images img{
+    
+}
+.col{
+    width: 90%;
+}
+.features-content p{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* end responsive  */
+}
+/* end responsive  */
