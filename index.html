@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G3 Architects</title>
+    <!-- bubble cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mdabdulkyum1/my-styles-and-scripts@main/styles.css">
     <!-- main css -->
     <link rel="stylesheet" href="styles/style.css">
     <!-- responsive css -->
@@ -155,34 +157,9 @@
 
 
 
-    <script>
-        const bubbleContainer = document.getElementById('bubble-container');
+    <script src="https://cdn.jsdelivr.net/gh/mdabdulkyum1/my-styles-and-scripts@main/scripts.js"></script>
 
-        function getRandomColor() {
-            const r = Math.floor(Math.random() * 256);
-            const g = Math.floor(Math.random() * 256);
-            const b = Math.floor(Math.random() * 256);
-            return `rgba(${r}, ${g}, ${b}, 0.5)`; // Random color with transparency
-        }
-
-        function createBubble() {
-            const bubble = document.createElement('div');
-            bubble.classList.add('bubble');
-            const size = Math.random() * 50 + 10 + 'px';
-            bubble.style.width = size;
-            bubble.style.height = size;
-            bubble.style.left = Math.random() * 100 + 'vw';
-            bubble.style.backgroundColor = getRandomColor(); // Set random color with transparency
-            bubble.style.animationDuration = Math.random() * 5 + 5 + 's';
-            bubbleContainer.appendChild(bubble);
-
-            setTimeout(() => {
-                bubble.remove();
-            }, 10000);
-        }
-
-        setInterval(createBubble, 500);
-    </script>
+    
 </body>
 
 </html>
