@@ -98,6 +98,14 @@ main{
 .fact-content-p {
     width: 100%;
 }
+
+
+footer .content {
+    padding: 26px 10px;
+}
+footer .content p{
+    font-size:.5rem ;
+}
 /* end responsive  */
 }
 /* end responsive  */
