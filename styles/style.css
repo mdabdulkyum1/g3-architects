@@ -253,8 +253,8 @@ main>section {
 
 .fact-content-p {
     color: rgb(114, 114, 114);
-    font-size:1rem;
-    width:50%;
+    font-size: 1rem;
+    width: 50%;
     margin: 24px 0px;
 }
 
@@ -262,7 +262,7 @@ main>section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top:83px;
+    margin-top: 83px;
 }
 
 .fact-card {
@@ -290,4 +290,49 @@ main>section {
 .fact-card .card-inner h3 {
     font-size: 1rem;
     color: #a7a7a7;
+}
+
+/* Sponsors styles here */
+.sponsors {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.sponsors h1 {
+    color: rgb(19, 19, 19);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.sponsors p {
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 24px 0px;
+}
+
+.sponsor-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 52px;
+}
+
+.sponsor-container img {
+    filter: grayscale();
+    width: 10%;
+}
+
+/* footer  */
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+footer .content {
+    text-align: center;
+    padding: 26px 240px;
+    border-radius: 8px;
+    background: rgb(255, 244, 231);
 }
