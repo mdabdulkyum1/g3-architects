@@ -87,8 +87,17 @@ main{
 .experience-button-text1{
     font-size: 1rem;
 }
-
-
+/* facts section responsive here */
+.facts{
+    padding: 24px;
+}
+.fact-container{
+    flex-direction: column;
+    gap: 20px;
+}
+.fact-content-p {
+    width: 100%;
+}
 /* end responsive  */
 }
 /* end responsive  */
